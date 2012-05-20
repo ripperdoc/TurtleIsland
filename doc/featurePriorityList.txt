@@ -1,0 +1,81 @@
+Note: Read syntax at bottom of file.
+
+001:	2003-04-10	pergamon,EliasAE
+	Start graphics and initialize the game engine. Begin update cycle.
+
+005:	2003-04-10	pergamon,EliasAE
+	Draw sprites on screen
+
+006:	2003-04-10	pergamon,EliasAE,henko
+
+007:	2003-04-11	pergamon
+	Make a standard for Collection of sprites. I.e. a GraphicalGameObject should
+	have sprite nr 1 as a picture that looks right, nr 2 looks down right and so
+	on. A GraphicalButton should have some kind sprite order where sprite nr 1 is
+	a "normal" button, nr 2 is a pressed button and so on.
+
+008:	2003-04-11	Martin
+	Possibility to hold and exchange resources between objects (that should have
+	that functionality).
+
+009:	2003-04-11	Martin
+	Socialization for Individuals.
+
+010:	2003-04-11	pergamon
+	How do we get coordinates for the view to start from?
+
+013:	2003-04-12	pergamon
+	Send task to Individual.
+
+014:	2003-04-13	pergamon
+	The "speed" of a Individual is right now set to a hard-coded value in it's
+	constructor.
+
+015:	2003-04-14	pergamon
+	Implement the informationpanel with buttons, bars and all.
+	
+016:	2003-04-15	Martin
+	A turtle shoould be abel to be commanded to gather a resource at a source
+	node.
+	
+017:	2003-04-16	EliasAE
+	A turtle should be able to be commanded to sacrifice resources at a light
+	pillar.
+
+---- COMPLETE ------------------------------------------------------------------
+
+002:	2003-04-10	pergamon,EliasAE
+	Turtle shall walk on screen with a move task.
+
+003:	2003-04-10	pergamon,EliasAE
+	Read input from click
+
+004:	2003-04-10	pergamon,EliasAE
+	Select turtle from click.
+
+011:	2003-04-12	pergamon
+	Add better hitTest on GraphialGameObject. The area that is checked is a
+	bit wrong right now.
+
+012:	2003-04-23	pergamon
+	When a turtle is selected and then the mouse is left-clicked somewhere
+	else, the turtle that was selected should be delselected.
+	The same if many turtles is selected.
+	It must somehow be a way to keep track of which turtles that is selected.
+
+---- SYNTAX --------------------------------------------------------------------
+
+uncomplete feature:
+
+002:2003-04-10	pergamon,EliasAE
+	asfkjfkoajewfrl
+	subfeature:  <klar>
+		jfkdsf
+	lskafjkdfj
+		afsdf
+
+complete feature:
+date<cr>by<cr>
+<tab>description<cr>
+<tab>more if needed<cr>
+<cr>

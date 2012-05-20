@@ -1,0 +1,77 @@
+Note: Read syntax at bottom of file.
+
+High Priority:
+f	001	2003-04-12	henko		TurtleIsland
+o	001	2003-04-10	-		GraphicsEngine
+C	001	2003-04-10	Martin		Updatable
+f	001	2003-04-14	EliasAE		CoordinateConverter
+C	001	2003-04-13	EliasAE		Keyboard
+P	002	2003-04-14	pergamon	Point
+C	002	2003-04-11	EliasAE		Task
+C	002	2003-04-10	Martin		Position
+C	002	2003-04-10	Martin		Updatable
+C	002	2003-04-10	EliasAE		MoveTask
+C	002	2003-04-12	henko		MoveToTask
+C	002	2003-04-10	Martin		Velocity
+C	002	2003-04-11	EliasAE		Vector
+P	002	2003-04-12	henko		SpecialPoint
+P	002	2003-04-12	henko		GameObject
+P	002	2003-04-12	henko		Individual
+f	002	2003-04-13	EliasAE		Point
+P	003	2003-04-14	pergamon	Mouse
+P	003	2003-04-14	pergamon	InputEventTranslator
+P	004	2003-04-14	pergamon	InputEventTranslator
+P	004	2003-04-14	pergamon	GraphicsEngine
+P	004	2003-04-14	pergamon	GraphicalGameObject
+P	004	2003-04-14	pergamon	Mouse
+P	004	2003-04-14	pergamon	View
+P	004	2003-04-14	pergamon	GraphicalGameObject
+C	?	2003-04-14	pergamon	GraphicalTile
+f	005	2003-04-14	pergamon	GraphicsEngine
+P	005	2003-04-14	pergamon	GraphicalObject
+X	005	2003-04-14	pergamon	Sprite
+P	011	2003-04-14	pergamon	GraphicalGameObject
+P	012	2003-04-14	pergamon	InputEventTranslator
+P	012	2003-04-11	pergamon	View
+P	013	2003-04-14	pergamon	InputEventTranslator
+o	014	2003-04-13	-		Individual
+w	015	2003-04-14	pergamon	InformationPanel
+w	015	2003-04-14	pergamon	Button
+w	015	2003-04-14	pergamon	Bar
+o	All	2003-04-11	Martin		Enviroment
+P	All	2003-04-13	Martin		World
+P	016	2003-04-15	Martin		CommandedGatherTask
+C	016	2003-04-15	Martin		SourceNode
+C	016	2003-04-15	Martin		Node
+f	016	2003-04-15	Martin		WobbleTask
+f	016	2003-04-15	Martin		TransferTask
+P	017	2003-04-23	EliasAE		CommandedSacrificeTask
+
+Medium Priority:
+o	002	2003-04-10	-		TaskList
+o	004	2003-04-10	-		Input
+C	008	2003-04-11	Martin		ResourceContainer
+C	009	2003-04-11	Martin		SocializeGroup
+C		2003-04-15	Martin		LightPillarNode
+
+Low Priority:
+o	?	2003-04-11	pergamon	Map
+
+---- SYNTAX --------------------------------------------------------------------
+status<tab>feature<tab>lastEdited<tab>by<tab><tab>class
+
+Status:
+	o	=	Not even begun (eg. generated from PoseidonUML).
+	w	=	Under construction. Do not edit.
+	f	=	A few or some features or functions written.
+	P	=	Coding finished for current phase. Testing remaining.
+	C	=	Coding finished for all phases. Testing remaining.
+	X	=	Release Candidate.
+
+Example:
+o	035	2003-04-10	John Doe	ResourceContainer
+
+Comment:
+Names and descripitions changed a bit for more exact states of a class.
+To futher indicate state, lowercase characters means unfinished classes
+while uppercase means more or less finished classes.

@@ -1,0 +1,43 @@
+Phase 1		The interactive movement of atleast one turtle on the display.
+	*	The input needs to handle the mouse input almost completely, not the keyboard though.
+	*	The graphics engine needs no preloaded graphics, but has to display and update the
+		individual and draw it against some sort of background.
+	*	The pregame and initialization of the other engines needs to function.
+	*	The whole update-cycle needs to function, with much job in the World to be done.
+		The gameengine needs complete attribute classes and a half-way complete GameObject tree, 
+		focused on the indivudal, which needs to handle tasks.
+		It also needs a functional TaskSystem, even though only the move task needs to be implemented.
+		
+		Classes or groups of classes affected, and what work is needed.
+
+		TurtleIsland:	Functional initialization and complete update cycle.
+		
+		Position: Complete.
+		Velocity: Complete.
+		
+		Point: Complete.
+		Vector: Complete.
+		
+		GameObject: Complete.
+		Individual: Functional. No AI functions needed.
+		SpecialPoint: Complete.
+		Updateable: Complete.
+		
+		Task: Complete.
+		MoveToTask: Complete.
+		MoveTask: Complete.
+		
+		World: Update cycle and initialization complete. Must be possible to get a
+			Individual from here to send tasks to.
+		
+		GraphicsEngine: Functionality to initialize graphics
+		GrapicalObject: Complete
+		GraphicalGameObject: Almost complete
+		Selectable:	Complete
+		Sprite: Complete
+		
+		InputEventTranslator: just function to give moveToTask.
+		Mouse: Complete
+	
+
+Phase 2		The independet movement of atleast one turte on the display.

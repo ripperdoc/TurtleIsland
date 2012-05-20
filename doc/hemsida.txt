@@ -1,0 +1,42 @@
+1. Commanded
+	1.1 Förflytta  turtle
+	1.2 Gather
+		1.2.1 SourceNode
+			1.2.1.1 In GameEngine
+			1.2.1.2 Draw on screen
+			1.2.1.3 Show in InformationPanel
+			1.2.1.4 Selection/unselection
+		1.2.2 GatherTask
+			1.2.2.1	In GameEngine
+			1.2.2.2 Command from Input
+	1.3 Sacrifice
+		1.3.1 LightPillarNode
+			1.3.1.1 In GameEngine
+			1.3.1.2 Draw on screen
+			1.3.1.3 Show in InformationPanel
+			1.3.1.4 Selection/unselection
+		1.3.2 SacrificeTask
+			1.3.2.1	In GameEngine
+			1.3.2.2 Command from Input
+	1.4 Transport
+		1.4.1 Node
+			1.4.1.1 In GameEngine
+			1.4.1.2 Draw on screen
+			1.4.1.3 Show in InformationPanel
+			1.4.1.4 Selection/unselection
+		1.4.2 TransportTask?
+			1.4.2.1	In GameEngine
+			1.4.2.2	Show resource icons
+			1.4.2.3 Command from Input
+
+2. Free/Independent
+	2.1 Get food
+		2.1.1 Turtle shall wobble
+	2.2 Get Happiness
+	2.3 Get Safety
+	2.4 Stroll
+	2.5 Socialize
+	2.6 Killcheck
+	
+3. Pregame
+4. Balancing / Testing / Pink fluffy things
