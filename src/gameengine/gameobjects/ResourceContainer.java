@@ -15,7 +15,7 @@ public interface ResourceContainer {
 	/**
 	 * Returns the number of units of a specific resource that is available.
 	 *
-	 * @return number o units available.
+	 * @return number o units available.
 	 */
 	public int getResourceAmount(int resourceType);
 

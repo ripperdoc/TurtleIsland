@@ -4,7 +4,7 @@
  *
  * 2003-05-11 Martin
  *	Added the method removeFromGroup() to correctly remove indiviudals
- *	when this task is finished by the TaskList. Corrected the naming¨
+ *	when this task is finished by the TaskList. Corrected the naming
  *	of an exception.
  *
  * 2003-05-10 henko

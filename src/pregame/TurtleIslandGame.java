@@ -62,7 +62,7 @@ public class TurtleIslandGame {
 	/**
 	 * Subdiretory for images that represents different maps.
 	 */
-	private static final String MAPS_DIRECTORY = "maps" + File.separator;
+	private static final String MAPS_DIRECTORY = "src" + File.separator + "images" + File.separator + "maps" + File.separator;
 
 	/**
 	 * The extension that will be used for map images. All map image files
@@ -290,7 +290,7 @@ public class TurtleIslandGame {
 		try {
 			// Creates a GraphicsEngine with 800x600 resolution and 16 bit colors.
 			graphicsEngine =
-					new GraphicsEngine(World.getWorld().getMapImage(), 800, 600, 16);
+					new GraphicsEngine(World.getWorld().getMapImage(), 800, 600, 32);
 
 			// Initialize graphics
 			graphicsEngine.initializeGraphics();
@@ -368,7 +368,8 @@ public class TurtleIslandGame {
 		File[] filesInDirectory = sourceDirectory.listFiles();
 		// Check if the directory did not exist or if another error occured.
 		if (filesInDirectory == null) {
-			return null;
+			throw new IllegalArgumentException("No files found in "+ sourceDirectory.getAbsolutePath());
+			// return null;
 		}
 
 		List mapFiles = new ArrayList();

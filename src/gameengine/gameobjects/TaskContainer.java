@@ -16,7 +16,7 @@ public interface TaskContainer {
 	/**
 	 * Sets the object's current commanded task to the given one.
 	 *
-	 * @param task the commanded task to use.
+	 * @param task the commanded task to use.
 	 */
 	public void setCommandedTask(Task task);
 

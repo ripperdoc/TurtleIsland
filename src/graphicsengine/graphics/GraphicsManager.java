@@ -42,7 +42,7 @@ public class GraphicsManager {
 	/**
 	 * The directory for the images.
 	 */
-	private static final String IMAGES_DIRECTORY = "images" + File.separator;
+	private static final String IMAGES_DIRECTORY = "src" + File.separator + "images" + File.separator;
 
 	/**
 	 * The extension that will be used for graphics. All graphics files
